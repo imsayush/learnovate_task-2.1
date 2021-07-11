@@ -1,0 +1,156 @@
+<html>
+    <title>Job Application Form</title>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="typewriter">
+                <h1>Job Application Form</h1>
+            </div>
+        </div>
+        <br>
+        <div id="SubHeadings">
+            <h1>Personal Information</h1>
+        </div>
+        <br><br><br>
+        <form id="JobForm">
+            <div class="cont1">
+                <div class="fname">
+                    <label for="fname">First Name :</label>
+                    <input type="text" id="fname" name="fname" required style="margin-right: 30px;">
+                </div>
+                <br>
+                <div class="lname">
+                    <label for="lname">Last Name :</label>
+                    <input type="text" id="lname" name="lname" required>
+                </div>
+                <br>
+                <div class="lname">
+                    <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required style="margin-right: 25px;">
+                </div>
+                <br>
+                <div class="contact">
+                    <label for="Contact">Contact Number :</label>
+                <input type="number" id="Contact" name="Contact" required>
+                </div>
+                <br>
+                <div class="faname">
+                    <label for="FaName">Father's Name :</label>
+                <input type="text" id="FaName" name="FaName" required>
+                </div>
+                <br>
+                <div class="gender">
+                    <lable for="gender">Gender :</lable>
+                <input type="radio" id="Male" name="Gender" value="MALE" style="margin-left: 20px;">
+                <label for="MALE">Male</label>
+                <input type="radio" id="Female" name="Gender" value="FEMALE" style="margin-left: 20px;">
+                <label for="FEMALE">Female</label>
+                <input type="radio" id="Other" name="Gender" value="OTHER"style="margin-left: 20px;">
+                <label for="OTHER">Other</label>
+                </div>
+                <br>
+                <div class="address">
+                    <label for="Address">Address :</label>
+                <br>
+                <input type="text" id="address" name="Address" required>
+                </div>
+                <br>
+            </div>
+            <br>
+            
+            <div id="SubHeadings">
+                <h1>Education and Skills</h1>
+            </div>
+            
+            <br>
+            <div class="cont2">    
+            <label for="I am">I am :</label>
+            <select id="I am" name="I am" style="margin-right: 30px;" required>
+                
+                <option value="Under graduate">Under Graduate</option>
+                <option value="Already graduated">Already Graduated</option>
+                <option value=" A high school student">High School Student</option>
+            </select>
+            <br><br>
+            <label>Institute Name : </label>
+            <input type="text" name="college name">
+            <br><br>
+            <label>Year of Passing : </label>
+            <select id="option1">
+                <option name="select an option">Select an option</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+            </select>
+            <br><br>
+            <label>SGPA / CGPA : </label>
+            <input type="number">
+            <br>
+            <br>
+            <label>Upload your Resume or CV : </label><br>
+            <input type="file" style="border: solid thin;"> 
+            <br>
+            <label><h3>Skills : </h3></label>
+            
+            <input type="checkbox" name="Android App Development" value="Android App Development">
+            <label for="Android App Development" style="margin-right: 30px;"> Android App Development</label>
+            <br>
+            <input type="checkbox" name="iOS Development" value="iOS Development">
+            <label for="iOS Development"> iOS Development</label>
+            <br>
+            <input type="checkbox" name="JavaScript" value="JavaScript">
+            <label for="JavaScript" style="margin-right: 30px;">JavaScript </label> 
+            <br>
+            <input type="checkbox" name="Java" value="Java">
+            <label for="Java" style="margin-right: 30px;"> Java</label> 
+            <br>
+            <input type="checkbox" name="C" value="C">
+            <label for="C" style="margin-right: 30px;"> C</label>
+            <br> 
+            <input type="checkbox" name="C++" value="C++">
+            <label for="C++" style="margin-right: 30px;"> C++</label> 
+            <br>
+            <input type="checkbox" name="Python" value="Python">
+            <label for="Python"> Python</label>
+            <br> 
+            <input type="checkbox" name="HTML" value="HTML">
+            <label for="HTML" style="margin-right: 30px;"> HTML</label>
+            <br>
+            <input type="checkbox" name="CSS" value="CSS">
+            <label for="CSS" style="margin-right: 30px;"> CSS</label>
+            <br>
+            <input type="checkbox" name="PHP" value="PHP">
+            <label for="PHP" style="margin-right: 30px;"> PHP</label>
+            <br>
+            <input type="checkbox" name="UI/UX" value="UI/UX">
+            <label for="UI/UX"> UI/UX</label>
+            <br>
+            <input type="checkbox" name="Graphic Designing" value="Graphic Designing">
+            <label for="Graphic Designing" style="margin-right: 30px;"> Graphic Designing</label>
+            <br>
+            <input type="checkbox" name="Digital Marketing" value="Digital Marketing">
+            <label for="Digital Marketing"> Digital Marketing</label>
+            <br>
+            <input type="checkbox" name="Content Writing" value="Content Writing">
+            <label for="Content Writing" style="margin-right: 30px;"> Content Writing</label>
+            <br>
+            <input type="checkbox" name="Cloud Computing" value="Cloud Computing">
+            <label for="Cloud Computing">Cloud Computing </label>
+            <br>
+            <input type="checkbox" name="Machine learning " value="Machine learning ">
+            <label for="Machine learning "> Machine learning </label>
+            <br> 
+            </div>
+            <br><br>
+            
+            <div class="button1">
+                <button class="btn">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </body>
+</html>
